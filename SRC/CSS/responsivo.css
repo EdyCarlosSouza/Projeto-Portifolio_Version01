@@ -4,7 +4,6 @@
     }
 
     .home {
-        padding: 20px 8%;
         flex-direction: column-reverse;
         align-items: center;
         margin: 50px 0;
@@ -13,16 +12,22 @@
 
     .home .informacoes {
         max-width: 100%;
-        padding: 8px 8px;
         text-align: center;
+        text-shadow: 2px 2px #000;
         align-items: center;
-        gap: 8px;
 
-        padding: 20px;
-        box-shadow: none;
-        backdrop-filter: none;
     }
 
+    .home .container-social ul.redes-sociais {
+        flex-direction: row;
+    }
+
+    .projetos .container-projetos {
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
     .home .informacoes h1 {
         font-size: 30px;
     }
@@ -31,20 +36,15 @@
         font-size: 16px;
     }
 
-    .home .container-social .redes-sociais{
-        display: flex;
-        flex-direction: row;
-        
+    .home .container-foto img {
+        max-width: 300px;
     }
 
-
-    .projetos .container-projetos {
-        padding: 0 30px;
-        gap: 30px;
+    .projetos {
+        padding: 30px;
     }
 
     .projetos .titulos {
-        font-size: 16px;
+        font-size: 16px
     }
-    
 }

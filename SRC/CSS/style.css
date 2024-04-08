@@ -77,13 +77,7 @@ section.home .informacoes {
     letter-spacing: 2px;
     padding: 0 15px;
     max-width: 50%;
-
-    /* efeito blur */
     padding: 40px;
-    box-shadow: 0 0 15px #c3143169;
-    border-radius: 25px;
-    background-color: #fafafa00;
-    backdrop-filter: blur(20px);
 
 }
 
