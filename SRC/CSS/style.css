@@ -77,14 +77,14 @@ section.home .informacoes {
     letter-spacing: 2px;
     padding: 0 15px;
     max-width: 50%;
-}
 
-section.home .efeito-vidro{
+    /* efeito blur */
     padding: 40px;
     box-shadow: 0 0 15px #c3143169;
     border-radius: 25px;
-    background-color: #fafafa00;;
+    background-color: #fafafa00;
     backdrop-filter: blur(20px);
+
 }
 
 section.home .informacoes h1 {
@@ -103,18 +103,16 @@ section.home .informacoes p {
 }
 
 
-section.home .container-social .efeito-vidro-social{
+section.home .container-social .redes-sociais {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* efeito blur */
     box-shadow: 0 0 15px #c3143169;
     border-radius: 50px;
     background-color: #ffffff00;;
     backdrop-filter: blur(10px);
-}
-
-section.home .container-social .redes-sociais {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
 }
 
 section.home .container-social .redes-sociais a i {
@@ -190,6 +188,7 @@ section.projetos .container-projetos .projeto.ativo {
 }
 
 section.projetos .container-projetos .projeto img {
+    border-radius: 50px;
     height: 100%;
 }
 
@@ -209,6 +208,7 @@ section.projetos .container-projetos .projeto .informacoes-projeto {
     top: 0;
     width: 100%;
     height: 100%;
+    border-radius: 50px;
     font-weight: 600;
     font-size: 20px;
     opacity: 0;
